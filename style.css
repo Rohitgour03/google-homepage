@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    font: 400 normal 0.9rem/1rem 'arial', sans-serif;
+    }
+    ul{
+    list-style-type: none;
+    }
+    
+     #container,  #nav-div, #nav-div ul, #main-div,#footer-div, #footer-div ul, .form-div, #form, .btns-div{
+     display: flex;
+     align-items: center;
+    }
+    #container{
+     margin: 0 auto;
+     width: 100%;
+     min-height: 100vh;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+    }
+    
+    nav, #nav-div{
+     width: 100%;
+    }
+    #nav-div ul{
+     width: 100%;
+     padding: 1rem;
+    }
+     #nav-div ul li:nth-child(2){
+     margin-right: auto;
+    }
+     #nav-div ul li{
+     padding: 0rem 0.5rem;
+    }
+     #nav-div ul li a{
+     text-decoration: none;
+     font-size: 13px;
+     color: rgba(0, 0, 0, 0.70);
+    }
+     #nav-div ul li a:hover{
+     text-decoration: underline;
+    }
+     .apps-icon:hover{
+     color: rgb(39, 39, 39);
+    }
+     #signin-btn{
+     padding: 0.5rem 0.8rem;
+     background-color: #4585F4;
+     font: 600 normal 14px/14px 'arial', sans-serif;
+     border: none;
+     border-radius: 2px;
+     color: #ffffff;
+    }
+     #signin-btn:hover{
+     background-color: #246eee;
+    }
+    
+    main{
+     width: 40%;
+     flex-grow: 1;
+    }
+     #main-div{
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     padding-top: 5rem;
+    }
+        
+     .logo-div{
+     padding: 1.5rem 0rem;
+    }
+     .logo-div img{
+     max-width: 100%;
+    }
+     .form-div{
+     width: 100%;
+     padding-bottom: 2rem;
+    }
+    #form{
+     border: 1px solid rgba(0, 0, 0, 0.20);
+     border-radius: 50rem;
+     padding: 0.5rem 1rem;
+     width: 100%;
+    }
+     #form:hover{
+     box-shadow: 0px 1px 7px rgb(201, 201, 201);
+    }
+    .input-div{
+     width: 100%;
+    }
+            
+     #search{
+     width: 100%;
+     border: none;
+     height: 1.8rem;
+     outline: none;
+     font-size: 1rem;
+     color: #444444;
+     padding: 0rem 1rem;
+    }
+    .btns-div{
+     width: 100%;
+     justify-content: center;
+    }
+    .srch-btn{
+     padding: 0rem 0.5rem;
+    }
+    .srch-btn button{
+     padding: 0.6rem 1.2rem;
+     border-radius: 3px;
+     border: none;
+     background-color: #f5f5f5;
+    }
+    .srch-btn button:hover{
+     border: 0.25px solid rgb(202, 202, 202);
+    }
+    .material-icons-outlined{
+     color: #818488;
+    }
+    
+     footer, #footer-div{
+     width: 100%;
+    }
+    #footer-div ul{
+     padding: 1rem 2rem;
+     background: #F2F2F2;
+     width: 100%;
+    }
+     #footer-div ul li{
+     padding: 0rem 0.5rem;
+    }
+     #footer-div ul li:nth-child(3){
+     margin-right: auto;
+    }
+     #footer-div ul li a{
+     text-decoration: none;
+     font: 500 normal 14px/14px 'arial', sans-serif;
+     color: #818488;
+    }
+    #footer-div ul li a:hover{
+    text-decoration: underline;
+    }
